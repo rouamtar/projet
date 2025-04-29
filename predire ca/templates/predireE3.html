@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prédiction de Réduction de Prix</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('static/bl.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        h1 {
+            color: #28a745;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        input, select {
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 25px;
+            padding: 12px 20px;
+            width: 100%;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .prediction-result {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .error-message {
+            color: #dc3545;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Prédiction de Chiffre d'Affaire de l'entreprise MG</h1>
+        <form action="/predireE3" method="POST">
+            <label for="variable1">Quantités Totales Vendues(nombre de produits vendues)</label>
+            <input type="number" id="variable1" name="variable1" placeholder="Quantité" required min="8304" max="16392" step="1">
+        
+            <label for="variable2">Année</label>
+            <input type="number" id="variable2" name="variable2" placeholder="Année" required min="2023" max="2025">
+        
+            <label for="variable6">Mois</label>
+            <input type="number" id="variable6" name="variable6" placeholder="Mois (1-12)" required min="1" max="12">
+        
+            <label for="delegation">Délégation</label>
+            <select id="delegation" name="delegation" required>
+                <option value="" disabled selected>Saisir une Délégation</option>
+                <option value="Monastir">Monastir</option>
+                <option value="Sousse">Sousse</option>
+                <option value="Médenine">Médenine</option>
+                <option value="Le Kef">Le Kef</option>
+                <option value="Tozeur">Tozeur</option>
+                <option value="Ariana">Ariana</option>
+                <option value="Manouba">Manouba</option>
+                <option value="Bizerte">Bizerte</option>
+                <option value="Siliana">Siliana</option>
+                <option value="Kairouan">Kairouan</option>
+                <option value="Nabeul">Nabeul</option>
+                <option value="Sfax">Sfax</option>
+                <option value="La Marsa">La Marsa</option>
+                <option value="Carthage">Carthage</option>
+                <option value="Tunis">Tunis</option>
+                <option value="Ben Arous">Ben Arous</option>
+                <option value="Jendouba">Jendouba</option>
+                <option value="Mahdia">Mahdia</option>
+            </select>
+        
+            <label for="localisation">Localité</label>
+<select id="localisation" name="localisation" required>
+    <option value="" disabled selected>Saisir une Localité</option>
+    <option value="Jemmal">Jemmal</option>
+    <option value="Kalaâ Kebira">Kalaâ Kebira</option>
+    <option value="Sayada">Sayada</option>
+    <option value="Zarzis">Zarzis</option>
+    <option value="Dahmani">Dahmani</option>
+    <option value="Degache">Degache</option>
+    <option value="Ennasr">Ennasr</option>
+    <option value="Douar Hicher">Douar Hicher</option>
+    <option value="Sejnane">Sejnane</option>
+    <option value="Gaâfour">Gaâfour</option>
+    <option value="Bouhajla">Bouhajla</option>
+    <option value="Kelibia">Kelibia</option>
+    <option value="Sakiet Ezzit">Sakiet Ezzit</option>
+    <option value="Sidi Daoud">Sidi Daoud</option>
+    <option value="Carthage Byrsa">Carthage Byrsa</option>
+    <option value="El Mourouj">El Mourouj</option>
+    <option value="Tabarka">Tabarka</option>
+    <option value="Hammamet">Hammamet</option>
+    <option value="Rades">Rades</option>
+</select>
+
+        
+            
+        
+            <button type="submit">Prédire le CA (MG)</button>
+        </form>
+        
+        
+        {% if prediction_text %}
+        <div class="prediction-result">
+            {{ prediction_text }}
+        </div>
+        {% endif %}
+        
+        {% if error_message %}
+        <div class="error-message">
+            {{ error_message }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

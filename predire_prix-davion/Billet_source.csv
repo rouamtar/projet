@@ -1,0 +1,295 @@
+bagage,classe,id_vols,numeros_vols,Duree,fk_compagnie,fk_entreprise,fk_ville_Arrivee,fk_ville_depart,prix_vol,fk_Date_Depart,fk_Date_Arrivee
+Inclus,Business class,1,LH333A,104,3,6,Paris,Tunis,1883,23/12/2023,24/12/2023
+Inclus,Business class,2,LH591N,161,3,6,Paris,Tunis,1883,27/10/2023,27/10/2023
+Inclus,Business class,3,AF032Y,142,3,6,Paris,Tunis,1951,09/04/24,10/04/24
+Inclus,Business class,4,AF802B,177,3,6,Paris,Tunis,1951,15/05/2023,17/05/2023
+Inclus,Business class,5,TU729K,134,3,6,Paris,Tunis,2032,10/07/24,12/07/24
+Inclus,Business class,6,EK330D,172,3,6,Paris,Tunis,2032,05/04/23,05/04/23
+Inclus,Business class,7,BA911E,97,3,6,Paris,Tunis,2128,19/10/2024,20/10/2024
+Inclus,Business class,8,TU631T,173,3,6,Paris,Tunis,2128,15/02/2023,15/02/2023
+Inclus,Business class,9,LH417C,142,3,6,Paris,Tunis,2128,15/09/2023,15/09/2023
+Inclus,Business class,10,LH426L,106,3,6,Paris,Tunis,2128,22/06/2024,24/06/2024
+Inclus,Business class,11,AF122P,98,3,6,Paris,Tunis,2195,04/03/24,04/03/24
+Inclus,Business class,12,BA886Z,107,3,6,Paris,Tunis,2195,06/04/23,06/04/23
+Inclus,Business class,13,AF547E,112,3,6,Paris,Tunis,2247,17/06/2023,18/06/2023
+Inclus,Business class,14,LH965B,159,3,6,Paris,Tunis,2247,27/08/2024,29/08/2024
+Inclus,Business class,15,TU993I,106,3,6,Paris,Tunis,2277,12/02/24,14/02/2024
+Inclus,Business class,16,LH228A,137,3,6,Paris,Tunis,2277,27/06/2024,29/06/2024
+Inclus,Business class,17,EK585Z,171,5,6,Paris,Tunis,2283,07/04/23,08/04/23
+Inclus,Business class,18,AF841L,106,3,6,Paris,Tunis,2372,26/05/2023,26/05/2023
+Inclus,Business class,19,LH629S,160,3,6,Paris,Tunis,2372,17/02/2024,17/02/2024
+Inclus,Business class,20,AF126N,110,3,6,Paris,Tunis,2493,05/06/23,06/06/23
+Inclus,Business class,21,TU726L,121,3,6,Paris,Tunis,2493,01/11/24,02/11/24
+Inclus,Business class,22,LH568S,112,7,6,Paris,Tunis,3567,06/09/24,07/09/24
+Inclus,Business class,23,AF742U,131,7,6,Paris,Tunis,3567,31/03/2024,02/04/24
+Inclus,Business class,24,AF719Z,124,7,6,Paris,Tunis,3567,27/12/2023,27/12/2023
+Inclus,Business class,25,BA484I,126,9,6,Montreal (P. E. Trudeau),Tunis,2831,21/04/2024,21/04/2024
+Inclus,Business class,26,EK135N,195,1,6,Montreal (P. E. Trudeau),Tunis,3197,28/10/2023,30/10/2023
+Inclus,Business class,27,BA059T,181,1,6,Montreal (P. E. Trudeau),Tunis,3223,06/01/23,07/01/23
+Inclus,Business class,28,BA728P,149,1,6,Montreal (P. E. Trudeau),Tunis,3223,17/01/2024,19/01/2024
+Inclus,Business class,29,AF917T,125,1,6,Montreal (P. E. Trudeau),Tunis,3223,16/11/2024,18/11/2024
+Inclus,Business class,30,BA786W,123,1,6,Montreal (P. E. Trudeau),Tunis,3261,15/04/2024,17/04/2024
+Inclus,Business class,31,EK041N,186,1,6,Montreal (P. E. Trudeau),Tunis,3261,18/02/2024,18/02/2024
+Inclus,Business class,32,AF338V,140,1,6,Montreal (P. E. Trudeau),Tunis,3261,17/05/2024,17/05/2024
+Inclus,Business class,33,BA391E,168,4,6,Montreal (P. E. Trudeau),Tunis,3316,09/07/23,10/07/23
+Inclus,Business class,34,TU740O,132,1,6,Montreal (P. E. Trudeau),Tunis,3320,04/10/24,06/10/24
+Inclus,Business class,35,BA927Z,181,1,6,Montreal (P. E. Trudeau),Tunis,3320,11/02/24,13/02/2024
+Inclus,Business class,36,LH249I,182,1,6,Montreal (P. E. Trudeau),Tunis,3320,30/06/2024,01/07/24
+Inclus,Business class,39,TU261P,186,7,6,Alger,Tunis,1559,11/07/23,13/07/2023
+Inclus,Business class,40,EK256S,171,7,6,Alger,Tunis,1559,27/07/2023,27/07/2023
+Inclus,Business class,41,EK189A,189,7,6,Alger,Tunis,1559,27/07/2024,27/07/2024
+Inclus,Business class,42,LH514A,157,7,6,Alger,Tunis,1559,05/11/24,06/11/24
+Inclus,Business class,43,AF601J,166,7,6,Alger,Tunis,1629,22/02/2024,22/02/2024
+Inclus,Business class,44,LH837A,185,7,6,Alger,Tunis,1629,04/11/23,05/11/23
+Inclus,Business class,45,BA791M,188,7,6,Alger,Tunis,1629,02/07/23,04/07/23
+Inclus,Business class,46,BA589Z,168,7,6,Alger,Tunis,1629,28/08/2024,30/08/2024
+Inclus,Business class,51,AF280X,139,6,6,Alger,Tunis,2499,29/08/2024,29/08/2024
+Inclus,Business class,52,LH553F,184,6,6,Alger,Tunis,2499,26/03/2023,28/03/2023
+Inclus,Business class,53,TU427Y,151,6,6,Alger,Tunis,2499,20/05/2024,20/05/2024
+Inclus,Business class,54,BA834N,196,6,6,Alger,Tunis,2499,08/02/23,09/02/23
+Inclus,Business class,55,EK838M,154,6,6,Alger,Tunis,2499,25/07/2024,26/07/2024
+Inclus,Business class,56,LH127F,194,6,6,Alger,Tunis,2499,07/04/23,07/04/23
+Inclus,Business class,57,EK126Y,162,6,6,Alger,Tunis,2884,29/01/2024,30/01/2024
+Inclus,Business class,58,BA378R,151,6,6,Alger,Tunis,2884,11/02/24,12/02/24
+Inclus,Business class,59,EK099A,196,6,6,Alger,Tunis,2884,29/01/2024,29/01/2024
+Inclus,Business class,60,TU063R,135,6,6,Alger,Tunis,2884,07/08/24,08/08/24
+Inclus,Business class,61,EK395Z,170,6,6,Alger,Tunis,2884,11/04/24,12/04/24
+Inclus,Business class,62,TU091P,207,6,6,Alger,Tunis,2884,18/06/2023,18/06/2023
+Inclus,Business class,63,TU138W,145,2,6,Alger,Tunis,1869,08/04/23,10/04/23
+Inclus,Business class,64,AF048U,161,2,6,Alger,Tunis,1869,01/01/24,01/01/24
+Inclus,Business class,65,LH576O,198,2,6,Alger,Tunis,1869,27/06/2024,27/06/2024
+Inclus,Business class,66,EK537K,192,2,6,Alger,Tunis,1869,31/12/2023,02/01/24
+Inclus,Business class,67,AF161M,172,2,6,Alger,Tunis,1901,20/11/2024,22/11/2024
+Inclus,Business class,68,AF872V,203,2,6,Alger,Tunis,1901,02/09/23,04/09/23
+Inclus,Business class,69,BA248R,129,2,6,Alger,Tunis,1906,01/03/23,03/03/23
+Inclus,Business class,70,EK535J,209,2,6,Alger,Tunis,1906,04/04/23,05/04/23
+Inclus,Business class,71,EK953K,199,2,6,Alger,Tunis,1910,28/12/2023,29/12/2023
+Inclus,Business class,72,EK666D,121,2,6,Alger,Tunis,2000,07/05/24,08/05/24
+Inclus,Business class,73,LH134L,186,2,6,Alger,Tunis,2000,09/06/24,09/06/24
+Inclus,Business class,74,BA732U,145,2,6,Alger,Tunis,2000,28/11/2024,29/11/2024
+Non inclus,Business class,37,LH106A,149,4,6,Alger,Tunis,1503,07/11/24,07/11/24
+Non inclus,Business class,38,AF499E,198,4,6,Alger,Tunis,1540,25/01/2024,27/01/2024
+Non inclus,Business class,47,BA463V,164,4,6,Alger,Tunis,1659,13/08/2023,13/08/2023
+Non inclus,Business class,48,TU714Z,138,4,6,Alger,Tunis,1761,24/11/2023,24/11/2023
+Non inclus,Business class,49,AF154K,166,4,6,Alger,Tunis,1798,23/04/2023,24/04/2023
+Non inclus,Business class,50,AF709P,126,4,6,Alger,Tunis,1923,21/08/2024,21/08/2024
+Non inclus,Économique,75,LH225D,150,7,5,Berlin,Tunis,1423,19/07/2024,20/07/2024
+Non inclus,Économique,76,EK510B,140,6,6,Nice,Tunis,1599,09/10/24,11/10/24
+Inclus,Économique,77,EK277D,178,1,6,Madrid,Tunis,1344,30/04/2023,02/05/23
+Inclus,Économique,78,AF261B,154,3,5,Marseille,Tunis,1262,30/03/2023,01/04/23
+Inclus,Économique,79,BA531A,113,6,6,Rome,Tunis,1562,05/10/23,05/10/23
+Non inclus,Économique,80,BA984B,141,5,5,Alger,Tunis,884,08/07/24,08/07/24
+Inclus,Économique,81,TU440B,120,3,5,Marseille,Tunis,1851,28/12/2023,28/12/2023
+Inclus,Économique,82,BA445B,154,5,5,Alger,Tunis,716,15/12/2023,16/12/2023
+Inclus,Économique,83,AF688C,156,6,5,Madrid,Tunis,1477,18/08/2023,20/08/2023
+Inclus,Économique,84,AF103E,94,6,5,Madrid,Tunis,1685,11/09/24,13/09/2024
+Inclus,Économique,85,BA118E,132,6,5,Rome,Tunis,1293,18/12/2023,19/12/2023
+Inclus,Économique,86,LH195E,150,8,6,Lyon,Tunis,1526,06/08/23,08/08/23
+Inclus,Économique,87,LH955A,201,3,5,Istanbul,Tunis,900,10/05/24,12/05/24
+Non inclus,Économique,88,BA197E,182,1,5,Milan,Tunis,1620,16/09/2023,16/09/2023
+Inclus,Économique,89,LH934B,95,5,6,Madrid,Tunis,1451,24/04/2024,24/04/2024
+Inclus,Économique,90,EK377A,201,3,5,Marseille,Tunis,1795,26/02/2023,27/02/2023
+Inclus,Économique,91,TU995B,157,7,5,Berlin,Tunis,1539,20/08/2023,20/08/2023
+Inclus,Économique,92,LH703A,194,3,6,Milan,Tunis,1464,10/06/24,11/06/24
+Inclus,Économique,93,EK456D,121,4,6,Madrid,Tunis,1680,16/02/2023,17/02/2023
+Non inclus,Économique,94,AF789E,134,5,6,Madrid,Tunis,1442,08/08/24,08/08/24
+Inclus,Business class,95,LH621E,210,9,6,Londres,Tunis,1131,29/05/2024,29/05/2024
+Non inclus,Business class,96,AZ226F,141,2,5,Madrid,Barcelone,837,20/10/2024,21/10/2024
+Non inclus,Economique,97,AF590A,206,1,5,Londres,Amsterdam,845,31/07/2024,01/08/2024
+Inclus,Economique,98,AF344E,132,9,5,Paris,Barcelone,454,25/08/2024,25/08/2024
+Non inclus,Economique,99,AF522F,208,3,6,Amsterdam,Barcelone,837,01/09/2024,02/09/2024
+Inclus,Business class,100,TU752C,127,9,5,Barcelone,Tunis,623,20/05/2024,20/05/2024
+Non inclus,Business class,101,AZ646D,208,2,5,Londres,Amsterdam,1199,26/08/2024,27/08/2024
+Inclus,Economique,102,TU959E,166,1,5,Rome,Paris,614,22/05/2024,23/05/2024
+Inclus,Economique,103,TU796F,192,5,5,Rome,Paris,581,28/10/2024,29/10/2024
+Inclus,Business class,104,IB168F,151,5,6,Londres,Paris,1098,28/09/2024,28/09/2024
+Non inclus,Business class,105,IB323B,125,9,6,Amsterdam,Paris,718,15/06/2024,15/06/2024
+Inclus,Economique,106,AZ684D,120,2,6,Amsterdam,Madrid,452,28/09/2024,29/09/2024
+Non inclus,Economique,107,LH666D,210,3,5,Rome,Amsterdam,905,09/07/2024,10/07/2024
+Inclus,Business class,108,AF103F,165,9,6,Paris,Amsterdam,797,20/05/2024,20/05/2024
+Non inclus,Business class,109,AF645A,126,1,6,Barcelone,Tunis,907,28/06/2024,28/06/2024
+Non inclus,Economique,110,TU133A,151,4,5,Tunis,Rome,669,25/07/2024,26/07/2024
+Non inclus,Economique,111,AF183C,207,5,5,Paris,Rome,850,18/06/2024,18/06/2024
+Inclus,Economique,112,AF489F,167,4,6,Barcelone,Paris,525,23/08/2024,24/08/2024
+Non inclus,Business class,113,AZ476A,169,8,6,Londres,Paris,1126,14/09/2024,15/09/2024
+Inclus,Business class,114,TU583B,208,3,5,Paris,Madrid,993,19/06/2024,19/06/2024
+Inclus,Economique,115,AZ202A,138,5,5,Barcelone,Rome,543,08/09/2024,08/09/2024
+Inclus,Business class,116,AF452A,130,9,5,Barcelone,Paris,818,11/05/2024,12/05/2024
+Inclus,Business class,117,TU992B,174,8,5,Barcelone,Rome,1304,28/09/2024,28/09/2024
+Non inclus,Business class,118,AZ174E,186,9,6,Amsterdam,Londres,1039,11/10/2024,11/10/2024
+Non inclus,Business class,119,IB463F,178,6,6,Barcelone,Paris,1312,23/09/2024,23/09/2024
+Inclus,Economique,120,IB101C,172,3,5,Tunis,Barcelone,553,01/10/2024,01/10/2024
+Inclus,Business class,121,LH907E,202,9,6,Rome,Londres,1072,08/06/2024,08/06/2024
+Non inclus,Economique,122,AF331E,159,5,5,Tunis,Barcelone,659,09/06/2024,09/06/2024
+Non inclus,Economique,123,TU363A,168,1,5,Tunis,Londres,831,18/07/2024,19/07/2024
+Inclus,Business class,124,TU624D,204,5,5,Londres,Paris,1224,30/07/2024,30/07/2024
+Non inclus,Economique,125,AZ364B,137,3,5,Londres,Amsterdam,627,13/10/2024,13/10/2024
+Non inclus,Business class,126,AF406C,146,1,5,Amsterdam,Rome,975,18/05/2024,18/05/2024
+Inclus,Economique,127,LH360F,205,1,6,Londres,Amsterdam,995,16/10/2024,16/10/2024
+Inclus,Economique,128,IB838E,183,5,5,Paris,Londres,691,12/09/2024,12/09/2024
+Inclus,Economique,129,TU617E,196,1,5,Rome,Paris,597,03/05/2024,03/05/2024
+Inclus,Business class,130,TU325A,121,1,5,Rome,Tunis,777,07/10/2024,08/10/2024
+Inclus,Economique,131,IB352F,160,1,6,Barcelone,Tunis,506,22/10/2024,23/10/2024
+Inclus,Economique,132,LH345C,205,4,5,Amsterdam,Barcelone,915,21/06/2024,21/06/2024
+Inclus,Economique,133,TU369C,160,1,5,Barcelone,Madrid,514,25/05/2024,25/05/2024
+Non inclus,Economique,134,TU336F,208,5,5,Tunis,Barcelone,644,19/10/2024,19/10/2024
+Non inclus,Business class,135,AF166B,156,2,5,Rome,Barcelone,790,13/09/2024,13/09/2024
+Inclus,Business class,136,IB879F,210,6,6,Londres,Tunis,998,05/10/2024,05/10/2024
+Non inclus,Economique,137,IB126E,201,9,5,Tunis,Amsterdam,617,27/08/2024,27/08/2024
+Non inclus,Economique,138,AZ143E,164,7,5,Paris,Madrid,587,02/07/2024,02/07/2024
+Inclus,Business class,139,TU971D,127,1,5,Paris,Amsterdam,762,15/06/2024,15/06/2024
+Inclus,Economique,140,LH913F,139,4,6,Barcelone,Madrid,452,14/08/2024,14/08/2024
+Non inclus,Economique,141,AZ738F,166,3,5,Tunis,Paris,596,24/10/2024,25/10/2024
+Non inclus,Economique,142,AZ929D,167,1,6,Paris,Madrid,777,04/05/2024,04/05/2024
+Inclus,Business class,143,LH778E,195,1,6,Londres,Madrid,1339,27/06/2024,27/06/2024
+Non inclus,Economique,144,AZ917E,203,7,6,Amsterdam,Paris,796,10/07/2024,11/07/2024
+Non inclus,Economique,145,AZ680F,175,3,6,Rome,Paris,623,07/09/2024,07/09/2024
+Non inclus,Economique,146,AZ351D,206,9,6,Rome,Barcelone,726,11/07/2024,12/07/2024
+Non inclus,Economique,147,IB460F,187,3,6,Rome,Amsterdam,901,08/06/2024,09/06/2024
+Non inclus,Business class,148,AZ278E,149,2,5,Madrid,Tunis,811,24/08/2024,25/08/2024
+Non inclus,Business class,149,AZ106E,182,5,6,Tunis,Rome,1286,18/05/2024,19/05/2024
+Inclus,Business class,150,AZ674F,192,3,5,Madrid,Rome,1114,27/06/2024,27/06/2024
+Inclus,Economique,151,TU762D,208,6,6,Londres,Tunis,672,12/05/2024,12/05/2024
+Inclus,Economique,152,AZ976A,150,3,5,Paris,Londres,655,27/07/2024,28/07/2024
+Non inclus,Economique,153,AZ907F,206,5,6,Amsterdam,Barcelone,850,06/05/2024,07/05/2024
+Non inclus,Economique,154,AZ794F,167,6,5,Amsterdam,Rome,657,21/06/2024,21/06/2024
+Inclus,Business class,155,AF934F,174,9,6,Paris,Barcelone,1213,25/07/2024,25/07/2024
+Non inclus,Economique,156,AF313D,125,2,6,Madrid,Amsterdam,493,13/10/2024,13/10/2024
+Inclus,Economique,157,LH838A,173,6,5,Rome,Barcelone,697,25/06/2024,26/06/2024
+Non inclus,Business class,158,LH677B,195,2,5,Paris,Madrid,988,04/09/2024,04/09/2024
+Inclus,Economique,159,AZ579F,180,9,6,Londres,Barcelone,585,26/08/2024,26/08/2024
+Inclus,Business class,160,AF904E,135,2,5,Rome,Madrid,979,10/05/2024,10/05/2024
+Non inclus,Business class,161,LH858C,152,1,5,Paris,Amsterdam,1003,08/05/2024,08/05/2024
+Non inclus,Business class,162,AZ390F,127,7,6,Rome,Tunis,708,24/07/2024,24/07/2024
+Non inclus,Economique,163,TU501B,153,6,5,Londres,Madrid,676,20/10/2024,21/10/2024
+Non inclus,Business class,164,AZ419B,134,2,5,Amsterdam,Londres,856,21/08/2024,21/08/2024
+Inclus,Business class,165,TU691A,234,4,5,Amsterdam,Tunis,1190,02/08/2024,02/08/2024
+Non inclus,Business class,166,IB541E,146,6,5,Amsterdam,Madrid,775,11/10/2024,11/10/2024
+Non inclus,Business class,167,TU490B,152,4,5,Madrid,Paris,942,16/08/2024,17/08/2024
+Non inclus,Economique,168,LH134D,149,1,6,Amsterdam,Londres,629,22/05/2024,23/05/2024
+Inclus,Business class,169,LH272A,157,2,5,Madrid,Paris,756,20/07/2024,20/07/2024
+Non inclus,Business class,170,LH676C,185,8,5,Tunis,Madrid,1287,24/05/2024,24/05/2024
+Non inclus,Business class,171,TU350D,130,8,6,Amsterdam,Barcelone,839,07/10/2024,07/10/2024
+Inclus,Economique,172,AF571C,206,8,6,Rome,Amsterdam,798,14/08/2024,14/08/2024
+Non inclus,Business class,173,LH864A,180,9,5,Amsterdam,Paris,1044,10/05/2024,10/05/2024
+Non inclus,Economique,174,AZ780C,177,9,5,Rome,Barcelone,732,13/05/2024,14/05/2024
+Non inclus,Business class,175,IB873D,142,5,6,Barcelone,Londres,950,12/08/2024,12/08/2024
+Non inclus,Economique,176,LH381D,155,2,6,Tunis,Madrid,709,05/05/2024,06/05/2024
+Inclus,Economique,177,AF974C,103,2,6,Rome,Tunis,334,19/05/2024,19/05/2024
+Inclus,Business class,178,IB640A,208,9,5,Tunis,Madrid,1186,26/06/2024,26/06/2024
+Inclus,Business class,179,AF638F,122,7,5,Barcelone,Amsterdam,806,02/08/2024,03/08/2024
+Non inclus,Business class,180,AF471B,156,8,6,Madrid,Rome,1079,21/09/2024,21/09/2024
+Non inclus,Business class,181,LH532E,177,2,5,Paris,Londres,1028,30/09/2024,01/10/2024
+Non inclus,Economique,182,LH268A,172,3,6,Tunis,Paris,821,19/06/2024,19/06/2024
+Non inclus,Business class,183,IB497C,162,6,5,Madrid,Tunis,989,19/07/2024,19/07/2024
+Non inclus,Business class,184,IB676A,173,9,5,Rome,Amsterdam,1048,16/09/2024,16/09/2024
+Inclus,Economique,185,AF916D,201,2,5,Rome,Londres,866,06/06/2024,06/06/2024
+Non inclus,Business class,186,LH876C,136,4,5,Barcelone,Amsterdam,636,30/07/2024,30/07/2024
+Non inclus,Business class,187,TU599A,126,7,6,Paris,Londres,658,10/05/2024,11/05/2024
+Inclus,Economique,188,AF452D,126,6,5,Rome,Paris,397,03/05/2024,03/05/2024
+Inclus,Economique,189,TU739D,198,1,6,Madrid,Barcelone,933,14/09/2024,15/09/2024
+Inclus,Business class,190,TU790E,168,6,5,Rome,Barcelone,768,07/06/2024,07/06/2024
+Inclus,Business class,191,LH421C,102,5,6,Paris,Tunis,701,22/08/2024,22/08/2024
+Non inclus,Economique,192,AZ224C,130,6,6,Paris,Tunis,406,11/08/2024,11/08/2024
+Non inclus,Business class,193,AF882D,210,9,6,Amsterdam,Tunis,1051,21/08/2024,21/08/2024
+Inclus,Business class,194,TU482C,208,2,5,Rome,Londres,1470,05/06/2024,06/06/2024
+Inclus,Economique,195,AZ436D,182,6,6,Rome,Amsterdam,883,07/06/2024,07/06/2024
+Inclus,Business class,196,IB679C,207,8,5,Rome,Barcelone,1441,14/09/2024,14/09/2024
+Non inclus,Economique,197,LH180F,163,8,5,Tunis,Barcelone,610,01/09/2024,01/09/2024
+Inclus,Economique,198,AZ892D,121,2,6,Barcelone,Madrid,490,12/08/2024,12/08/2024
+Non inclus,Business class,199,LH903B,143,6,5,Paris,Rome,719,24/08/2024,24/08/2024
+Inclus,Business class,200,AZ851C,172,1,5,Tunis,Rome,960,25/07/2024,26/07/2024
+Inclus,Business class,201,AZ652B,142,5,5,Paris,Amsterdam,1004,06/08/2024,06/08/2024
+Non inclus,Business class,202,TU788C,206,8,6,Amsterdam,Tunis,985,07/10/2024,07/10/2024
+Non inclus,Economique,203,LH632B,155,8,6,Barcelone,Madrid,533,22/10/2024,22/10/2024
+Inclus,Business class,204,LH459F,201,6,5,Madrid,Barcelone,1273,21/10/2024,21/10/2024
+Inclus,Business class,205,AF610F,172,3,5,Paris,Amsterdam,1111,02/10/2024,02/10/2024
+Non inclus,Economique,206,AF667D,191,3,6,Madrid,Paris,589,16/10/2024,17/10/2024
+Inclus,Business class,207,AF725A,188,9,5,Madrid,Paris,1163,29/08/2024,29/08/2024
+Non inclus,Business class,208,IB517F,136,7,6,Londres,Paris,669,31/07/2024,31/07/2024
+Inclus,Business class,209,IB711C,147,7,5,Paris,Tunis,879,19/07/2024,20/07/2024
+Non inclus,Business class,210,IB551B,181,6,5,Rome,Madrid,1254,24/07/2024,25/07/2024
+Inclus,Business class,211,LH816F,174,5,6,Madrid,Tunis,1265,02/10/2024,02/10/2024
+Non inclus,Business class,212,TU800F,113,9,5,Barcelone,Tunis,711,13/06/2024,13/06/2024
+Non inclus,Business class,213,TU215A,210,3,5,Paris,Madrid,1440,05/05/2024,06/05/2024
+Non inclus,Economique,214,IB384B,193,2,5,Londres,Amsterdam,827,27/09/2024,27/09/2024
+Non inclus,Economique,215,TU532D,165,4,5,Barcelone,Paris,673,07/08/2024,07/08/2024
+Non inclus,Economique,216,AF684C,174,2,6,Madrid,Tunis,860,19/09/2024,20/09/2024
+Inclus,Business class,217,LH504B,195,1,6,Amsterdam,Madrid,1097,05/10/2024,06/10/2024
+Inclus,Business class,218,LH925C,136,3,5,Tunis,Amsterdam,910,25/05/2024,26/05/2024
+Inclus,Business class,219,AF790B,94,9,6,Madrid,Tunis,485,22/08/2024,22/08/2024
+Inclus,Business class,220,LH146E,127,3,6,Madrid,Paris,923,13/08/2024,13/08/2024
+Non inclus,Economique,221,AZ676B,217,4,6,Amsterdam,Tunis,687,10/08/2024,10/08/2024
+Inclus,Business class,222,AF813D,160,1,5,Paris,Rome,1130,07/10/2024,08/10/2024
+Inclus,Economique,223,IB360B,206,5,5,Amsterdam,Londres,750,02/08/2024,03/08/2024
+Non inclus,Business class,224,TU240A,160,2,5,Amsterdam,Tunis,1066,25/10/2024,26/10/2024
+Non inclus,Economique,225,IB571D,125,3,5,Paris,Londres,594,29/07/2024,29/07/2024
+Inclus,Business class,226,IB482E,145,7,5,Londres,Paris,856,07/06/2024,08/06/2024
+Inclus,Business class,227,AZ498A,199,4,6,Rome,Amsterdam,1215,12/06/2024,13/06/2024
+Non inclus,Business class,228,IB823C,207,9,6,Londres,Amsterdam,1084,04/05/2024,04/05/2024
+Non inclus,Economique,229,LH862F,167,4,6,Barcelone,Londres,803,09/10/2024,09/10/2024
+Non inclus,Business class,230,IB254E,189,1,5,Amsterdam,Londres,1086,01/09/2024,01/09/2024
+Inclus,Economique,231,AZ458D,177,6,5,Tunis,Amsterdam,702,24/07/2024,24/07/2024
+Inclus,Business class,232,IB153F,184,8,6,Tunis,Rome,967,30/07/2024,30/07/2024
+Inclus,Business class,233,IB720F,141,7,6,Paris,Rome,680,22/06/2024,22/06/2024
+Non inclus,Economique,234,TU952D,147,9,6,Tunis,Rome,523,15/08/2024,15/08/2024
+Inclus,Economique,235,LH319E,186,6,5,Rome,Madrid,785,20/05/2024,20/05/2024
+Inclus,Economique,236,TU479D,171,5,6,Paris,Rome,640,14/08/2024,14/08/2024
+Inclus,Economique,237,TU187E,180,8,5,Barcelone,Tunis,743,18/06/2024,19/06/2024
+Non inclus,Economique,238,TU158B,127,7,6,Londres,Amsterdam,505,18/09/2024,19/09/2024
+Inclus,Business class,239,IB857B,158,7,6,Londres,Madrid,1074,09/08/2024,10/08/2024
+Inclus,Economique,240,IB130B,204,7,6,Madrid,Amsterdam,895,08/09/2024,09/09/2024
+Non inclus,Economique,241,AZ664B,115,8,6,Rome,Tunis,463,05/09/2024,05/09/2024
+Inclus,Business class,242,AZ731F,229,9,6,Londres,Tunis,1522,10/10/2024,10/10/2024
+Inclus,Economique,243,LH519D,104,7,6,Paris,Tunis,374,24/08/2024,25/08/2024
+Non inclus,Business class,244,IB232C,154,2,5,Rome,Paris,1116,18/08/2024,19/08/2024
+Inclus,Economique,245,LH980C,141,6,5,Madrid,Londres,535,28/06/2024,29/06/2024
+Non inclus,Business class,246,AZ199B,183,2,6,Barcelone,Londres,884,08/07/2024,09/07/2024
+Inclus,Business class,247,TU819F,184,2,6,Amsterdam,Barcelone,950,16/08/2024,16/08/2024
+Non inclus,Economique,248,IB840B,115,2,6,Madrid,Tunis,403,30/08/2024,30/08/2024
+Non inclus,Economique,249,AF528C,182,6,5,Tunis,Londres,585,29/05/2024,29/05/2024
+Inclus,Economique,250,IB155D,175,4,5,Barcelone,Amsterdam,700,02/07/2024,02/07/2024
+Non inclus,Economique,251,TU912A,219,7,5,Amsterdam,Tunis,874,14/08/2024,14/08/2024
+Inclus,Economique,252,IB640B,138,8,6,Paris,Amsterdam,460,30/09/2024,30/09/2024
+Non inclus,Business class,253,AF622D,161,2,5,Barcelone,Rome,1048,11/10/2024,12/10/2024
+Non inclus,Economique,254,TU444D,195,6,6,Rome,Barcelone,793,29/05/2024,30/05/2024
+Inclus,Business class,255,AZ463D,151,8,5,Rome,Amsterdam,1035,30/09/2024,30/09/2024
+Inclus,Business class,256,LH413E,188,9,5,Barcelone,Amsterdam,1193,28/06/2024,29/06/2024
+Non inclus,Business class,257,IB198C,196,4,6,Tunis,Paris,963,25/10/2024,26/10/2024
+Inclus,Economique,258,LH766A,210,9,6,Paris,Amsterdam,832,18/10/2024,19/10/2024
+Non inclus,Business class,259,AF867D,148,7,5,Tunis,Madrid,700,13/05/2024,13/05/2024
+Non inclus,Economique,260,LH499A,147,5,5,Rome,Londres,679,24/10/2024,24/10/2024
+Inclus,Business class,261,LH994B,184,6,6,Madrid,Paris,1231,24/06/2024,24/06/2024
+Inclus,Business class,262,AZ935D,192,4,5,Rome,Amsterdam,1285,26/05/2024,26/05/2024
+Inclus,Economique,263,AZ960A,121,4,5,Madrid,Barcelone,546,07/05/2024,07/05/2024
+Non inclus,Business class,264,AZ858D,154,6,6,Rome,Tunis,851,17/08/2024,18/08/2024
+Inclus,Business class,265,TU657D,166,2,5,Londres,Amsterdam,905,06/09/2024,06/09/2024
+Non inclus,Business class,266,AF155D,120,7,5,Madrid,Barcelone,661,31/08/2024,31/08/2024
+Inclus,Economique,267,IB115A,126,7,6,Paris,Londres,393,18/09/2024,18/09/2024
+Inclus,Business class,268,IB256A,183,9,5,Amsterdam,Barcelone,845,25/08/2024,26/08/2024
+Inclus,Economique,269,TU698A,175,1,5,Barcelone,Tunis,702,12/07/2024,12/07/2024
+Non inclus,Business class,270,AZ152E,176,3,6,Barcelone,Tunis,1136,06/08/2024,07/08/2024
+Inclus,Economique,271,AZ521E,198,8,5,Paris,Madrid,878,19/10/2024,20/10/2024
+Inclus,Business class,272,TU998E,221,8,5,Londres,Tunis,1649,09/07/2024,09/07/2024
+Non inclus,Economique,273,AZ226B,177,9,6,Tunis,Madrid,750,02/06/2024,03/06/2024
+Non inclus,Business class,274,AF111F,186,4,6,Barcelone,Rome,1056,29/07/2024,29/07/2024
+Non inclus,Business class,275,LH811D,162,8,6,Barcelone,Rome,852,17/05/2024,17/05/2024
+Inclus,Economique,276,TU875F,152,6,5,Paris,Rome,686,08/06/2024,09/06/2024
+Non inclus,Economique,277,AF186A,203,7,6,Barcelone,Amsterdam,926,21/06/2024,21/06/2024
+Inclus,Economique,278,LH490C,142,8,5,Rome,Barcelone,660,24/09/2024,24/09/2024
+Non inclus,Business class,279,TU843C,158,6,6,Madrid,Londres,1028,04/09/2024,04/09/2024
+Inclus,Economique,280,AZ262B,108,7,6,Barcelone,Tunis,367,24/09/2024,25/09/2024
+Non inclus,Business class,281,AZ290E,160,8,6,Barcelone,Amsterdam,758,31/07/2024,31/07/2024
+Non inclus,Economique,282,LH650E,165,5,5,Amsterdam,Paris,720,13/09/2024,13/09/2024
+Inclus,Business class,283,AZ295A,182,9,6,Amsterdam,Paris,1145,28/08/2024,28/08/2024
+Inclus,Business class,284,AZ926E,185,2,6,Londres,Madrid,1013,20/10/2024,21/10/2024
+Inclus,Business class,285,AF541F,171,2,6,Madrid,Tunis,1099,05/08/2024,06/08/2024
+Inclus,Economique,286,LH961E,159,6,5,Amsterdam,Tunis,615,29/07/2024,29/07/2024
+Non inclus,Economique,287,AF996F,156,1,6,Tunis,Rome,777,05/06/2024,06/06/2024
+Non inclus,Business class,288,LH197F,201,2,5,Rome,Paris,1031,13/08/2024,13/08/2024
+Non inclus,Business class,289,AF553C,142,8,6,Londres,Madrid,766,31/07/2024,31/07/2024
+Inclus,Economique,290,TU555C,165,9,6,Paris,Londres,712,26/06/2024,26/06/2024
+Non inclus,Economique,291,AF658C,145,3,5,Paris,Londres,711,11/06/2024,11/06/2024
+Non inclus,Economique,292,LH914C,124,2,5,Rome,Amsterdam,404,19/10/2024,19/10/2024
+Inclus,Business class,293,AF351D,129,2,5,Barcelone,Madrid,763,30/08/2024,30/08/2024
+Non inclus,Economique,294,IB943C,191,5,5,Rome,Barcelone,631,25/07/2024,25/07/2024

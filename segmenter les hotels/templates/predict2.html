@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prédiction de Clustering des Hôtels</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('static/bl.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        h1 {
+            color: #28a745;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        input, select {
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 25px;
+            padding: 12px 20px;
+            width: 100%;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .prediction-result {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .error-message {
+            color: #dc3545;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .hotels-list {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 5px;
+            font-weight: normal;
+        }
+        .hotels-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .hotels-list li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Clustering des hôtels</h1>
+        <form action="/predict2" method="POST">
+            <label for="region">Région</label>
+            <select id="region" name="region" required>
+                <option value="" disabled selected>-- Choisissez une région --</option>
+                <option value="Djerba">Djerba</option>
+                <option value="Hammamet">Hammamet</option>
+                <option value="Monastir">Monastir</option>
+                <option value="Sousse">Sousse</option>
+            </select>
+            
+            
+            <label for="rate">Rate (note sur 10)</label>
+            <input type="number" id="rate" name="rate" step="0.1" min="3" max="10" required><br><br>
+            
+            <button type="submit">Prédire le cluster</button>
+        </form>
+
+        {% if prediction_text %}
+        <div class="prediction-result">
+            {{ prediction_text }}
+        </div>
+        {% endif %}
+        
+        {% if error_message %}
+        <div class="error-message">
+            {{ error_message }}
+        </div>
+        {% endif %}
+
+        {% if hotels_list %}
+        <div class="hotels-list">
+            <h3>Hôtels correspondants :</h3>
+            <ul>
+                {% for hotel in hotels_list %}
+                    <li>{{ hotel }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

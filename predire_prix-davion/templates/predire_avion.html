@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prédiction de Prix de Billet</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('/static/bl.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        h1 {
+            color: #28a745;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        input, select {
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 25px;
+            padding: 12px 20px;
+            width: 100%;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .prediction-result {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .error-message {
+            color: #dc3545;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Prédiction de Prix de Billet</h1>
+        <form action="/predire_avion" method="POST">
+            <label for="date_depart">Date de départ</label>
+            <input type="date" id="date_depart" name="date_depart" required>
+
+            <label for="date_arrivee">Date d'arrivée</label>
+            <input type="date" id="date_arrivee" name="date_arrivee" required>
+
+            <label for="ville_depart">Ville de départ</label>
+            <input type="text" id="ville_depart" name="ville_depart" placeholder="Ex: Tunis" required>
+
+            <label for="ville_arrivee">Ville d'arrivée</label>
+            <input type="text" id="ville_arrivee" name="ville_arrivee" placeholder="Ex: Rome" required>
+
+            <label for="classe">Classe</label>
+            <select id="classe" name="classe" required>
+                <option value="" disabled selected>Choisir une classe</option>
+                <option value="Economique">Economique</option>
+                <option value="Business">Business</option>
+            </select>
+
+            <label for="bagage">Bagage</label>
+            <select id="bagage" name="bagage" required>
+                <option value="" disabled selected>Bagage inclus ?</option>
+                <option value="Inclus">Inclus</option>
+                <option value="Non inclus">Non inclus</option>
+            </select>
+
+            <button type="submit">Prédire</button>
+        </form>
+
+        {% if prix %}
+        <div class="prediction-result">
+            <h2>🔮 Résultat :</h2>
+            <p>💰 Prix estimé : {{ prix }} DT</p>
+            <p>🛫 Compagnie probable : {{ compagnie }}</p>
+        </div>
+        {% endif %}
+
+        {% if error_message %}
+        <div class="error-message">
+            {{ error_message }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

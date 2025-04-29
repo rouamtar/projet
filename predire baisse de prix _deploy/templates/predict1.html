@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prédiction de Réduction de Prix</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('static/bl.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        h1 {
+            color: #28a745;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        input, select {
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 25px;
+            padding: 12px 20px;
+            width: 100%;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .prediction-result {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .error-message {
+            color: #dc3545;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Prédiction de Réduction de Prix</h1>
+        <form action="/predict1" method="POST">
+            
+            <select id="produit" name="produit" required>
+                <!-- Options statiques comme fournies -->
+                <option value="" disabled selected>Choisir un produit</option>
+                <option value="1">Barre chocolatée</option>
+                <option value="2">Biscottes nature</option>
+                <option value="3">Biscuits fourrés</option>
+                <option value="4">Biscuits prouta</option>
+                <option value="5">Biscuits sans sucre</option>
+                <option value="6">Biscuits secs Fruit & fibre et en chocolat & noisette</option>
+                <option value="7">Boisson au jus existe en plusieurs saveurs</option>
+                <option value="8">Boisson gazeuse</option>
+                <option value="9">Boisson gazeuse</option>
+                <option value="10">Boisson gazeuse existe en plusieurs saveurs</option>
+                <option value="11">Boisson lactée</option>
+                <option value="12">Bonbons</option>
+                <option value="13">Boulettes de dinde</option>
+                <option value="14">Breadsticks Italiens</option>
+                <option value="15">Brosse à dents</option>
+                <option value="16">Brosses à dents</option>
+                <option value="17">Brownies chocolat</option>
+                <option value="18">Bâtonnets de pain au sésame</option>
+                <option value="19">Café soluble</option>
+                <option value="20">Cake</option>
+                <option value="21">Cake mini muffins</option>
+                <option value="22">Chamia</option>
+                <option value="23">Chamia aux amandes</option>
+                <option value="24">Chamia nature</option>
+                <option value="25">Chamia à tartiner existe en chocolat et noisette</option>
+                <option value="26">Champignons</option>
+                <option value="27">Champignons pieds</option>
+                <option value="28">Chicorée Café</option>
+                <option value="29">Chips</option>
+                <option value="30">Chocolat instantané</option>
+                <option value="31">Chocoline</option>
+                <option value="32">Cocktail fruits de mer</option>
+                <option value="33">Confiture</option>
+                <option value="34">Confiture d'abricot</option>
+                <option value="35">Cookies</option>
+                <option value="36">Cordon bleu pané</option>
+                <option value="37">Couches bébé</option>
+                <option value="38">Couches-bébé confort jumbo</option>
+                <option value="39">Crème dépilatoire</option>
+                <option value="40">Crevettes Décortiquées</option>
+                <option value="41">Crème de cuisson le squeeze</option>
+                <option value="42">Crème dessert</option>
+                <option value="43">Crème dessert au chocolat Liégeois</option>
+                <option value="44">Crème à tartiner aux noisettes</option>
+                <option value="45">Céréales</option>
+                <option value="46">Céréales</option>
+                <option value="47">Déodorant</option>
+                <option value="48">Déodorant SOUPLESSE</option>
+                <option value="49">Désodorisant existe en plusieurs senteurs</option>
+                <option value="50">Dentifrice</option>
+                <option value="51">Dentifrice Lilas EXTREME</option>
+                <option value="52">DÉLICE</option>
+                <option value="53">Eau de javel</option>
+                <option value="54">Eponges abrasives</option>
+                <option value="55">Escalope panée</option>
+                <option value="56">Essuie-tout</option>
+                <option value="57">Essuie-tout blanc</option>
+                <option value="58">Fromage EDAM</option>
+                <option value="59">Fromage en tranches</option>
+                <option value="60">Fromage fondu</option>
+                <option value="61">Fromage fondu râpé</option>
+                <option value="62">Fromage mozzarella pasta filata</option>
+                <option value="63">Fromage râpé</option>
+                <option value="64">Fromage râpé à l'emmental</option>
+                <option value="65">Fromage à tartiner Fraidoux</option>
+                <option value="66">GEL COIFFANT EFFET</option>
+                <option value="67">Gaufrettes</option>
+                <option value="68">Gel Machine</option>
+                <option value="69">Gel douche</option>
+                <option value="70">Gel douche</option>
+                <option value="71">Gel lavant mains</option>
+                <option value="72">Gel machine</option>
+                <option value="73">Glace</option>
+                <option value="74">Génoise</option>
+                <option value="75">Harissa</option>
+                <option value="76">Huile de maïs</option>
+                <option value="77">Huile végétale</option>
+                <option value="78">Jambon de dinde</option>
+                <option value="79">Jus orange</option>
+                <option value="80">Kabeb de dinde</option>
+                <option value="81">Ketchup</option>
+                <option value="82">Kit de coloration</option>
+                <option value="83">Lessive liquide</option>
+                <option value="84">Lessive poudre machine</option>
+                <option value="85">Lessive poudre machine</option>
+                <option value="86">Levure chimique</option>
+                <option value="87">Levure sèche instantanée</option>
+                <option value="88">Levure à gâteaux</option>
+                <option value="89">Lilas SUPREME</option>
+                <option value="90">Lingettes bébé</option>
+                <option value="91">Liquide vaisselle</option>
+                <option value="92">Liquide vaisselle existe en plusieurs formules</option>
+                <option value="93">Margarine</option>
+                <option value="94">Mayonnaise</option>
+                <option value="95">Miel</option>
+                <option value="96">Mozza pizza le boyau</option>
+                <option value="97">Nettoyant WC</option>
+                <option value="98">Nettoyant liquide de rinçage</option>
+                <option value="99">Nettoyant multi-usages</option>
+                <option value="100">Nettoyant vaisselle</option>
+                <option value="101">Papier hygiénique</option>
+                <option value="102">Penne rigate</option>
+                <option value="103">Préparation pour boisson instantanée existe en plusieurs saveurs</option>
+                <option value="104">Protège slip</option>
+                <option value="105">Préparation cake chocolat vanille</option>
+                <option value="106">Préparation chocolat chaud</option>
+                <option value="107">Préparation pour Muffin's</option>
+                <option value="108">Préparation pour cake sorgho</option>
+                <option value="109">Préparation pour fondant au chocolat</option>
+                <option value="110">Rasoirs jetables</option>
+                <option value="111">Ricotta</option>
+                <option value="112">SAVON DE MÉNAGE</option>
+                <option value="113">Salami dinde extra</option>
+                <option value="114">Salami famille</option>
+                <option value="115">Savon</option>
+                <option value="116">Savon de ménage</option>
+                <option value="117">Seiches nettoyées</option>
+                <option value="118">Serviettes féminines</option>
+                <option value="119">Serviettes hygiéniques</option>
+                <option value="120">Shampooing</option>
+                <option value="121">Soft Vaseline</option>
+                <option value="122">Spécialité laitière brassée</option>
+                <option value="123">Steak de dinde</option>
+                <option value="124">Sucre d'épilation</option>
+                <option value="125">Sucre vanilliné</option>
+                <option value="126">Tartelette</option>
+                <option value="127">Thon entier à l'huile d'olive</option>
+                <option value="128">Thon entier à l'huile végétale</option>
+                <option value="129">Thon entier à l'huile végétale</option>
+                <option value="130">Thé noir soluble</option>
+                <option value="131">Tomates pelées Cubées</option>
+                <option value="132">Vinaigre à ménage</option>
+                <option value="133">Yaourt à boire Maxi</option>
+                <option value="134">Yaourt aromatisé</option>
+                <option value="135">Yaourt à boire maxi</option>
+                <option value="136">Boisson en jus existe en plusieurs saveurs</option>
+                <option value="137">Jambon de poulet fumé</option>
+                <option value="138">Sauce pizza</option>
+                <option value="139">Œufs</option>
+            </select>
+        
+
+
+            
+            <label for="marque">marque</label>
+    <select id="marque" name="variable2" required>
+        <option value="" disabled selected>Choisir une marque</option>
+        <option value="0">DET</option>
+        <option value="1">LILAS</option>
+        <option value="2">Lilas EXTREME</option>
+        <option value="4">AYECUE</option>
+        <option value="5">BALEA</option>
+        <option value="6">BARILLA</option>
+        <option value="7">BELLEZZA</option>
+        <option value="8">BERGEN</option>
+        <option value="9">BIC</option>
+        <option value="10">BOLERIO</option>
+        <option value="11">BONDIN</option>
+        <option value="12">BOULES D'OR</option>
+        <option value="13">BRAVA</option>
+        <option value="14">BREAK</option>
+        <option value="15">C'FRESH</option>
+        <option value="16">CAMPL</option>
+        <option value="17">CAPTAIN SINDBAD</option>
+        <option value="18">CARTHAGE</option>
+        <option value="19">CHAHIA</option>
+        <option value="20">CHIPS-UP / FINGER</option>
+        <option value="21">CHOCOLINE / SAID</option>
+        <option value="22">COLGATE</option>
+        <option value="23">D-CLIC</option>
+        <option value="24">DADDY CHIPS</option>
+        <option value="25">DAILY'N</option>
+        <option value="26">DELICE / MILKANA</option>
+        <option value="27">DIVA</option>
+        <option value="28">DIXAN</option>
+        <option value="29">DOVE</option>
+        <option value="30">DÉLICE</option>
+        <option value="31">DÉLICE MILKANA</option>
+        <option value="32">EL MAZRAA</option>
+        <option value="33">EMPORIUM</option>
+        <option value="34">EXCELLENCE</option>
+        <option value="35">FINISH</option>
+        <option value="36">FROMY</option>
+        <option value="37">FRUIT'O</option>
+        <option value="38">FRUZZY</option>
+        <option value="39">GEL DOUCHE</option>
+        <option value="40">GENERAL</option>
+        <option value="41">GLISS</option>
+        <option value="42">GOLDINA</option>
+        <option value="43">GRISSINI</option>
+        <option value="44">HAPPY FRESH</option>
+        <option value="45">HARISSA</option>
+        <option value="46">HEAD & SHOULDERS</option>
+        <option value="47">HIMOKA</option>
+        <option value="48">IMPERIAL</option>
+        <option value="49">JADIDA</option>
+        <option value="50">JUDY</option>
+        <option value="51">JUGO KIDS</option>
+        <option value="52">KIF</option>
+        <option value="53">KOLL YOUM</option>
+        <option value="54">KOLL YOUM (avec espace)</option>
+        <option value="55">KYUFI</option>
+        <option value="56">LAND'OR</option>
+        <option value="57">LANDOR</option>
+        <option value="58">LBM</option>
+        <option value="59">LE PÂTISSIER</option>
+        <option value="60">LEGEND</option>
+        <option value="61">LILAS</option>
+        <option value="62">LILAS SUPREME</option>
+        <option value="63">LILAS ULTRA DOUX</option>
+        <option value="64">LOTUS</option>
+        <option value="65">LUX</option>
+        <option value="66">MAHJOUB</option>
+        <option value="67">MAXWELL HOUSE</option>
+        <option value="68">MAXXX</option>
+        <option value="69">MG J'AIME</option>
+        <option value="70">MLIHA</option>
+        <option value="71">MOULIN D'OR</option>
+        <option value="72">NANA</option>
+        <option value="73">NATILAIT</option>
+        <option value="74">NESTLÉ / LION</option>
+        <option value="75">NIHEL</option>
+        <option value="76">O'PPA</option>
+        <option value="77">OH!</option>
+        <option value="78">OLINA</option>
+        <option value="79">PALETTE</option>
+        <option value="80">PAPILLON</option>
+        <option value="81">PEAUDOUCE</option>
+        <option value="82">PRIL</option>
+        <option value="83">PRÉSIDENT</option>
+        <option value="84">PTIT TOP/Y'AB</option>
+        <option value="85">RAOUA</option>
+        <option value="86">REMIA</option>
+        <option value="87">SAID</option>
+        <option value="88">SAIDA</option>
+        <option value="89">SHEHRAZAD</option>
+        <option value="90">SICAM</option>
+        <option value="91">SIDI JABEUR</option>
+        <option value="92">SIGNAL</option>
+        <option value="93">SIMBA</option>
+        <option value="94">SMART CHEF</option>
+        <option value="95">SOFTY</option>
+        <option value="96">SOUPLESSE</option>
+        <option value="97">STREET & GO</option>
+        <option value="98">SUNSILK</option>
+        <option value="99">TROPICO</option>
+        <option value="100">ULTRA DOUX</option>
+        <option value="101">Ultra DOUX</option>
+        <option value="102">VANOISE</option>
+        <option value="103">VITALIO</option>
+        <option value="104">VIVA</option>
+        <option value="105">WEEPOP'S</option>
+        <option value="106">Y'AB</option>
+        <option value="107">ZGOLLI</option>
+    </select>
+            
+    <label for="variable3">Taille :</label>
+    <select name="variable3" required>
+        <option value="">--Choisir une taille--</option>
+        <option value="0">100 gr</option>
+        <option value="1">13 cl</option>
+        <option value="2">200 gr</option>
+        <option value="3">300 ml</option>
+        <option value="4">350 gr</option>
+        <option value="5">420 gr</option>
+        <option value="6">46 gr</option>
+        <option value="7">500 gr</option>
+        <option value="8">80 gr</option>
+        <option value="9">0,9 L</option>
+        <option value="10">1 L</option>
+        <option value="11">100 gr</option>
+        <option value="12">100 gr </option>
+        <option value="13">100 ml</option>
+        <option value="14">115 gr</option>
+        <option value="15">125 ml</option>
+        <option value="16">130 gr</option>
+        <option value="17">140 gr</option>
+        <option value="18">150 gr</option>
+        <option value="19">160 gr</option>
+        <option value="20">18 cl</option>
+        <option value="21">180 gr</option>
+        <option value="22">190 gr</option>
+        <option value="23">1L</option>
+        <option value="24">2,5 L</option>
+        <option value="25">2,5L</option>
+        <option value="26">20 cl</option>
+        <option value="27">200 gr</option>
+        <option value="28">200 ml</option>
+        <option value="29">220 gr</option>
+        <option value="30">24 cl</option>
+        <option value="31">25 cl</option>
+        <option value="32">250 gr</option>
+        <option value="33">250 ml</option>
+        <option value="34">270 gr</option>
+        <option value="35">280 gr</option>
+        <option value="36">3 L</option>
+        <option value="37">30 gr</option>
+        <option value="38">300 gr</option>
+        <option value="39">300 ml</option>
+        <option value="40">300gr</option>
+        <option value="41">330 gr</option>
+        <option value="42">340 gr</option>
+        <option value="43">350 gr</option>
+        <option value="44">350 ml</option>
+        <option value="45">355 gr</option>
+        <option value="46">380 gr</option>
+        <option value="47">4 kg</option>
+        <option value="48">400 gr</option>
+        <option value="49">400 ml</option>
+        <option value="50">400gr</option>
+        <option value="51">425 gr</option>
+        <option value="52">480 ml</option>
+        <option value="53">5 L</option>
+        <option value="54">50 gr</option>
+        <option value="55">500 g</option>
+        <option value="56">500 gr</option>
+        <option value="57">500 ml</option>
+        <option value="58">500ml</option>
+        <option value="59">65 gr</option>
+        <option value="60">70 gr</option>
+        <option value="61">700 gr</option>
+        <option value="62">90 gr</option>
+        <option value="63">95 gr</option>
+    
+    </select><br><br>
+            
+            <label for="variable4">Quantité Désirée</label>
+            <input type="number" id="variable4" name="variable4" placeholder="Quantité" required min="1" max="5">
+            
+            <label for="variable5">Année</label>
+            <input type="number" id="variable5" name="variable5" placeholder="Année" required min="2024" max="2025">
+            
+            <label for="variable6">Mois</label>
+            <input type="number" id="variable6" name="variable6" placeholder="Mois (1-12)" required min="1" max="12">
+            
+            <label for="variable7">Jour</label>
+            <input type="number" id="variable7" name="variable7" placeholder="Jour (1-31)" required min="1" max="31">
+            
+            <button type="submit">Prédire la Réduction</button>
+        </form>
+
+        {% if prediction_text %}
+        <div class="prediction-result">
+            {{ prediction_text }}
+        </div>
+        {% endif %}
+        
+        {% if error_message %}
+        <div class="error-message">
+            {{ error_message }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
