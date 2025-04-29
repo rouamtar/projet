@@ -36,7 +36,7 @@ pour permettre :
 | Integration     | Talend              |
 | Backend         | Flask (Python)      |
 | Frontend        | Angular             |
-| Stockage        | SGBD-R (SQL)        |
+| Stockage        | SQL Server          |
 | Visualisation   | Power BI            |
 | Sources données | Fichiers CSV, PDF, BD-SQL |
 
