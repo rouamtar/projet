@@ -1,17 +1,17 @@
 # Price Comparaison Prpoject 
 Ce projet a été réalisé dans le cadre du parcours **ERP & Business Intelligence** à **Esprit School of Engineering**
 
-This project was carried out as part of the ERP & Business Intelligence track at Esprit School of Engineering.
+This project was carried out as part of the **ERP & Business Intelligence** track at **Esprit School of Engineering**.
 
-The goal of the project is to develop a Business Intelligence (BI) solution incorporating Machine Learning (ML) and Artificial Intelligence (AI) features, applied to two key sectors:
+The goal of the project is to develop a Business Intelligence (BI) solution incorporating **Machine Learning (ML)** and **Artificial Intelligence (AI) features**, applied to **two key sectors:**
 
-Tourism (hotels and airline tickets)
+**Tourism (hotels and airline tickets)**
 
-Retail (Carrefour, Géant, MG in Tunisia)
+**Retail (Carrefour, Géant, MG in Tunisia)**
 
 to enable:
 
-For clients:
+**For clients**:
 
 Real-time price comparison.
 
@@ -19,7 +19,7 @@ Personalized alerts and recommendations.
 
 Access to price forecasts and history.
 
-For businesses:
+**For businesses**:
 
 Competitor monitoring.
 
@@ -27,7 +27,7 @@ Market trend analysis.
 
 Dynamic pricing strategy optimization.
 
-Key Features
+**Key Features**
 👤 Client Side:
 Product, hotel, and flight price comparison.
 
@@ -39,14 +39,14 @@ Price forecasting and history.
 
 Trend analysis.
 
-🏢 Business Side:
+**🏢 Business Side**:
 Automated competitor monitoring.
 
 Predictive trend analysis.
 
 Dynamic price strategy tracking.
 
-🛠️ Technologies & Tools
+**🛠️ Technologies & Tools**
 Category	Tool/Technology
 Integration	Talend
 Backend	Flask (Python)
@@ -55,7 +55,7 @@ Storage	SQL Server
 Visualization	Power BI
 Data Sources	CSV files, PDF, SQL databases
 
-👥 Project Team
+**👥 Project Team**
 Nour Ben Abid
 
 Nour Boukhris
@@ -68,7 +68,7 @@ Mohamed Aziz Ben Ajmia
 
 Assma Hajbi
 
-🔗 Useful Links
+**🔗 Useful Links**
 Esprit School of Engineering
 
 Talend Documentation
