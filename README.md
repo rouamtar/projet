@@ -1,56 +1,82 @@
-# projet Comparateur de Prix
+# Price Comparaison Prpoject 
 Ce projet a été réalisé dans le cadre du parcours **ERP & Business Intelligence** à **Esprit School of Engineering**
 
-Le projet vise à développer une **solution de Business Intelligence (BI)** intégrant des fonctionnalités de **Machine Learning (ML)** et d’**Intelligence Artificielle (IA)**,appliquée à deux secteurs:
-- Le **tourisme** (hôtels et billets d’avion)
-- Le **commerce de détail** (Carrefour, Géant, MG en Tunisie)
-  
-pour permettre :
+This project was carried out as part of the ERP & Business Intelligence track at Esprit School of Engineering.
 
-- Aux **clients** :
-  - De comparer les prix en temps réel.
-  - De recevoir des alertes et recommandations personnalisées.
-  - De consulter des prévisions et historiques de prix.
-- Aux **entreprises** :
-  - De surveiller la concurrence.
-  - D’analyser les tendances du marché.
-  - D’optimiser dynamiquement leur stratégie tarifaire.
+The goal of the project is to develop a Business Intelligence (BI) solution incorporating Machine Learning (ML) and Artificial Intelligence (AI) features, applied to two key sectors:
 
-## Fonctionnalités clés
-### 👤 Côté client :
-- Comparaison des prix produits, hôtels et vols.
-- Recommandations intelligentes.
-- Alertes de prix.
-- Prévisions et historique des prix.
-- Analyse des tendances
+Tourism (hotels and airline tickets)
 
-### 🏢 Côté entreprise :
-- Veille concurrentielle automatisée.
-- Analyse prédictive des tendances.
-- Suivi dynamique des stratégies de prix.
+Retail (Carrefour, Géant, MG in Tunisia)
 
-## 🛠️ Technologies & Outils
+to enable:
 
-| Catégorie       | Outil/Technologie   |
-|-----------------|---------------------|
-| Integration     | Talend              |
-| Backend         | Flask (Python)      |
-| Frontend        | Angular             |
-| Stockage        | SQL Server          |
-| Visualisation   | Power BI            |
-| Sources données | Fichiers CSV, PDF, BD-SQL |
+For clients:
 
-## 👥 Équipe projet
--Nour Ben Abid 
--Nour Boukhris
--Erij Triaa
--Roua Mtar
--Mohamed Aziz Ben Ajmia
--Assma Hajbi
+Real-time price comparison.
 
-## 🔗 Liens utiles
-- [Esprit School of Engineering](https://esprit.tn)
-- [Documentation de Talend](https://help.talend.com/)
-- [Flask](https://flask.palletsprojects.com/)
-- [Angular](https://angular.io/)
-- [Power BI](https://powerbi.microsoft.com/)
+Personalized alerts and recommendations.
+
+Access to price forecasts and history.
+
+For businesses:
+
+Competitor monitoring.
+
+Market trend analysis.
+
+Dynamic pricing strategy optimization.
+
+Key Features
+👤 Client Side:
+Product, hotel, and flight price comparison.
+
+Smart recommendations.
+
+Price alerts.
+
+Price forecasting and history.
+
+Trend analysis.
+
+🏢 Business Side:
+Automated competitor monitoring.
+
+Predictive trend analysis.
+
+Dynamic price strategy tracking.
+
+🛠️ Technologies & Tools
+Category	Tool/Technology
+Integration	Talend
+Backend	Flask (Python)
+Frontend	Angular
+Storage	SQL Server
+Visualization	Power BI
+Data Sources	CSV files, PDF, SQL databases
+
+👥 Project Team
+Nour Ben Abid
+
+Nour Boukhris
+
+Erij Triaa
+
+Roua Mtar
+
+Mohamed Aziz Ben Ajmia
+
+Assma Hajbi
+
+🔗 Useful Links
+Esprit School of Engineering
+
+Talend Documentation
+
+Flask
+
+Angular
+
+Power BI
+
+
