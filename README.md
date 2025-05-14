@@ -131,14 +131,6 @@ SQL SERVER
 
 ---
 
-## 5. Final Presentation and Communication
-**Objective:** Present the solution to technical and business audiences.
-
-- 🖼️ **Presentation Slides:** PDF / PowerPoint.
-- 🎥 **Demo & Pitch Videos:** Recorded with OBS Studio.
-- 🌍 **LinkedIn Post:** Professional showcase.
-- 🪧 **Project Poster:** A3 format for events.
-- 📘 **Final Report:** Tailored for both tech and business readers.
 
 **Tools:** PowerPoint, Canva, OBS Studio, Word, LaTeX.
 
