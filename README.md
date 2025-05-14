@@ -1,4 +1,4 @@
-# Price Comparaison Prpoject 
+# Price Comparaison Project 
 
 
 This project was carried out as part of the **ERP & Business Intelligence** track at **Esprit School of Engineering**.
