@@ -82,68 +82,65 @@ Power BI
 Machine learning
 
 SQL SERVER
-**🔗The Project Phases – Price Comparison**
-1/Discovery and Data Extraction
-Objective: Identify, explore, and extract relevant internal and external data sources.
+# 🔗 Project Phases – Price Comparison Platform
 
-Data discovery notebook – Initial data exploration using Python (Jupyter).
+## 1. Discovery and Data Extraction
+**Objective:** Identify, explore, and extract relevant internal and external data sources.
 
-Technical specifications (Draft 1 & 2) – Documenting requirements in Markdown / Word.
+- 📓 **Data Discovery Notebook:** Initial exploration using Jupyter (Python).
+- 📄 **Technical Specifications:** Requirements documented in Markdown / Word.
+- 🕸️ **Data Extraction via AI / Web Scraping:** Scripts with BeautifulSoup, Scrapy, or Selenium.
+- 🗂️ **Staging Area (Internal & External):** Temporary storage in CSV / JSON / MySQL.
+- 📊 **Data Quality Report:** Generated using `pandas-profiling`, Excel, or PDF.
 
-Data extraction via AI / Web Scraping – Scripts written in Python (BeautifulSoup, Scrapy, or Selenium).
+**Tools:** Jupyter Notebook, Python, Pandas, Scrapy, Selenium, Excel, Google Drive, Word.
 
-Staging Area (internal + external) – Temporary storage using CSV / JSON files or MySQL.
+---
 
-Data Quality Report – Generated using pandas-profiling / Excel / PDF.
+## 2. Data Warehouse Design and ETL
+**Objective:** Clean, transform, and structure data for analysis.
 
-Tools used: Jupyter Notebook, Python, Pandas, Scrapy, Selenium, Excel, Google Drive, Word.
-2/Data Warehouse Design and ETL
-Objective: Clean, transform, and store data in a structured format for analysis.
+- 🧱 **Schema Design:** Star/Snowflake schema using dbdiagram.io, Draw.io, or Lucidchart.
+- 🔄 **ETL Pipelines:** Developed with Python / Talend / SSIS / Airflow.
+- 🛢️ **Data Warehouse:** Hosted in MSSQL .
+- 📚 **ETL Documentation:** Logic explained and documented clearly.
 
-Data Warehouse schema design – Star or snowflake schema built with dbdiagram.io / Draw.io / Lucidchart.
+**Tools:** Python, Talend, SSIS, PostgreSQL, Airflow, dbdiagram.io, Lucidchart.
 
-ETL Pipelines – Developed using Python / Talend / SSIS / Airflow.
+---
 
-Final Data Warehouse – Hosted in PostgreSQL / MySQL / Azure SQL / BigQuery.
+## 3. Data Visualization and Machine Learning
+**Objective:** Build dashboards and predictive models.
 
-ETL Documentation – Detailed explanation of extraction, transformation, and loading logic.
+- 📈 **Power BI Dashboards:** Price trends, comparisons, and alerts (Desktop & Online).
+- 🤖 **ML Notebooks:** Price prediction with Scikit-learn / XGBoost, KNN,....
+- 🌐 **Model Deployment:** APIs with Flask / FastAPI.
+- 📏 **Performance Evaluation:** Metrics like RMSE, MAE.
 
-Tools used: Python, Talend, SSIS, PostgreSQL, Airflow, dbdiagram.io, Lucidchart.
+**Tools:** Power BI, Jupyter, Python, Scikit-learn, XGBoost, Flask, FastAPI.
 
-3/Data Visualization and Machine Learning
-Objective: Create interactive dashboards and predictive models.
+---
 
-Power BI Dashboards (Desktop + Online) – Price trends, comparisons, and alerts.
+## 4. Application Deployment and Automated Reporting
+**Objective:** Deliver application and automate reporting.
 
-Machine Learning notebooks (v1 & final) – Price prediction models using scikit-learn / XGBoost.
+- 🖥️ **Web App (v1):** Built with HTML/CSS + Flask(Bakcend)+Angular(Frontend) / .
+- 📤 **Automated Reports:** Via GenIA / Python scripts / Power BI Service.
+- 📧 **Email Automation:**  Outlook API
 
-Model Deployment – Exposed via APIs (Flask / FastAPI).
+**Tools:** Flask, Power BI Service, GenIA
 
-Performance Analysis – Evaluation using metrics like RMSE, MAE, etc.
+---
 
-Tools used: Power BI, Jupyter, Python (scikit-learn, XGBoost), Flask, FastAPI.
-4/Application Deployment and Automated Reporting
-Objective: Deliver the application to users and automate report generation.
+## 5. Final Presentation and Communication
+**Objective:** Present the solution to technical and business audiences.
 
-Web Application (v1) – Built with HTML/CSS/JavaScript or React and backend using Flask / Node.js.
+- 🖼️ **Presentation Slides:** PDF / PowerPoint.
+- 🎥 **Demo & Pitch Videos:** Recorded with OBS Studio.
+- 🌍 **LinkedIn Post:** Professional showcase.
+- 🪧 **Project Poster:** A3 format for events.
+- 📘 **Final Report:** Tailored for both tech and business readers.
 
-Automated Reports – Generated using GenIA / Python scripts / Power BI Service.
+**Tools:** PowerPoint, Canva, OBS Studio, Word, LaTeX.
 
-Email Automation – Sending reports through SMTP / Outlook API / Zapier.
-
-Tools used: React, Flask, Power BI Service, GenIA, SMTP, Node.js.
-5/Final Presentation and Communication
-Objective: Present the project to technical and business audiences.
-
-Presentation Slides (PDF / PowerPoint)
-
-Technical Demo Video + Commercial Pitch Video
-
-LinkedIn Project Post
-
-Project Poster (A3 format)
-
-Final Report (Tech & Business)
-
-Tools used: PowerPoint, Canva, OBS Studio, Word / LaTeX.
 
