@@ -88,9 +88,8 @@ SQL SERVER
 **Objective:** Identify, explore, and extract relevant internal and external data sources.
 
 - 📓 **Data Discovery Notebook:** Initial exploration using Jupyter (Python).
-- 📄 **Technical Specifications:** Requirements documented in Markdown / Word.
 - 🕸️ **Data Extraction via AI / Web Scraping:** Scripts with BeautifulSoup, Scrapy, or Selenium.
-- 🗂️ **Staging Area (Internal & External):** Temporary storage in CSV / JSON / MySQL.
+- 🗂️ **Staging Area (Internal & External):** Temporary storage in CSV / PDF 
 - 📊 **Data Quality Report:** Generated using `pandas-profiling`, Excel, or PDF.
 
 **Tools:** Jupyter Notebook, Python, Pandas, Scrapy, Selenium, Excel, Google Drive, Word.
@@ -100,9 +99,9 @@ SQL SERVER
 ## 2. Data Warehouse Design and ETL
 **Objective:** Clean, transform, and structure data for analysis.
 
-- 🧱 **Schema Design:** Star/Snowflake schema using dbdiagram.io, Draw.io, or Lucidchart.
-- 🔄 **ETL Pipelines:** Developed with Python / Talend / SSIS / Airflow.
-- 🛢️ **Data Warehouse:** Hosted in MSSQL .
+- 🧱 **Schema Design:** Star schema .
+- 🔄 **ETL Pipelines:** Developed with Python / Talend 
+- 🛢️ **Data Warehouse:** Hosted in  SQL Server Managment .
 - 📚 **ETL Documentation:** Logic explained and documented clearly.
 
 **Tools:** Python, Talend, SSIS, PostgreSQL, Airflow, dbdiagram.io, Lucidchart.
