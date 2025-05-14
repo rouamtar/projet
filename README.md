@@ -96,7 +96,7 @@ SQL SERVER
 
 ---
 
-## 2. Data Warehouse Design and ETL
+## 2. Data Warehouse  and ETL
 **Objective:** Clean, transform, and structure data for analysis.
 
 - 🧱 **Schema Design:** Star schema .
