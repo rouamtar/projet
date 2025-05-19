@@ -146,4 +146,5 @@ Project Poster (A3 format)
 Final Report (Tech & Business)
 
 Tools used: PowerPoint, Canva, OBS Studio, Word / LaTeX.
+http://localhost:4200/
 
